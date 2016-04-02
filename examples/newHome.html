@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>James Thigpen Jr.</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.3/css/swiper.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      .swiper-container {
+          width: 1240px;
+          height: 900px;
+
+      }  
+    </style>
+
+  </head>
+  <body>
+    
+    <!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="https://drscdn.500px.org/photo/69978653/m%3D900/e92d2d3f9a5bca72581a3b495d7fe97d"></div>
+        
+        <div class="swiper-slide", style="overflow-y:scroll;">
+        <img src="http://aldf.org/wp-content/uploads/2013/12/lil-bub-cat-article-image-500px.jpg">
+        <img src="http://aldf.org/wp-content/uploads/2013/12/lil-bub-cat-article-image-500px.jpg">
+        <img src="http://aldf.org/wp-content/uploads/2013/12/lil-bub-cat-article-image-500px.jpg">
+        <img src="http://aldf.org/wp-content/uploads/2013/12/lil-bub-cat-article-image-500px.jpg">
+        <img src="http://aldf.org/wp-content/uploads/2013/12/lil-bub-cat-article-image-500px.jpg">
+        <img src="http://aldf.org/wp-content/uploads/2013/12/lil-bub-cat-article-image-500px.jpg">
+        <img src="http://aldf.org/wp-content/uploads/2013/12/lil-bub-cat-article-image-500px.jpg">
+        <img src="http://aldf.org/wp-content/uploads/2013/12/lil-bub-cat-article-image-500px.jpg">
+
+        </div>
+      
+        <div class="swiper-slide"><img src="https://s-media-cache-ak0.pinimg.com/736x/25/71/38/25713886c92d060b0d0635cb951f6c4f.jpg"></div>
+        ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
+
+
+
+  <!-- SCRIPTS -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!-- SWIPER JS Lib -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.3/js/swiper.jquery.min.js"></script>
+  <!-- SWIPER SCRIPTING -->
+    <script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+
+    loop: false,
+
+
+    // If we need pagination
+    pagination: '.swiper-pagination',
+    
+    // Navigation arrows
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    
+    // And if we need scrollbar
+    scrollbar: '.swiper-scrollbar',
+
+    centeredSlides: '.centeredSlides'
+  });
+
+  // JQUERY Scripting for swiper
+
+    $(document).ready(function () {
+    //initialize swiper when document ready  
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: false
+
+    })        
+  });
+
+
+  </script>
+  </body>
+</html>
